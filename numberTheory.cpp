@@ -26,7 +26,7 @@ void sieve(){
 
             lp[i]=hp[i]=i; //calc highest prime and lowerst prime
 
-            for(int j=2*i; j<n; i+=i){
+            for(int j=2*i; j<n; j+=i){
                 isPrime[j]=0;
 
                 hp[j]=i;
